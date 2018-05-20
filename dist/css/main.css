@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    background: #efefef;
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 4.2rem;
+    color: #dbb8e0;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 2.6rem;
+    color: #4c0143;
+    margin: 0;  
+}
+
+.portfolio-resume-h3 {
+    margin: 4rem 0 1rem;
+}
+
+.portfolio-base-font.portfolio-resume--new-line {
+    margin: 1rem 0 0;
+}
+
+.portfolio-content-block {
+    margin: 5% 0;
+}
+
+.portfolio-base-font {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: #000;
+    margin: 0;
+    line-height: 1.6rem;
+}
+
+.portfolio-container {
+    margin: 5% 7%;
+}
+
+.portfolio-resume-headline__container{
+    padding: 0 2%;
+}
+
+.portfolio-resume-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-column-1-2 {
+    width: 50%;
+    padding: 0 2%;
+}
+
+.navigation {
+    text-align: center;
+    padding: 20px 0;
+    background: linear-gradient(to right, #4c0143 , #41004d);
+}
+
+.navigation__link {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.0rem;
+    text-decoration: none;
+    color: #dbb8e0;
+    text-transform: uppercase;
+    border-right: 1px solid #dbb8e0;
+    padding: 0 10px;
+}
+
+.navigation__link:last-child {
+    border-right: 0px;
+}
+
+.container {
+    text-align: center;
+}
+
+.portfolio-home__background {
+    background: linear-gradient(to right, #4c0143 , #41004d);
+    height: 100vh;
+    text-align: center;
+}
