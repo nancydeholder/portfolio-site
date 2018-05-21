@@ -19,6 +19,15 @@ h3 {
     margin: 0;  
 }
 
+b {
+    font-weight: 600;
+}
+
+.portfolio-home__subheadline {
+    color: #dbb8e0;
+    font-size: 1.8rem;
+}
+
 .portfolio-resume-h3 {
     margin: 4rem 0 1rem;
 }
@@ -73,12 +82,17 @@ img {
 
 .navigation__link {
     font-family: 'Work Sans', sans-serif;
-    font-size: 1.0rem;
+    font-size: 1.2rem;
     text-decoration: none;
     color: #dbb8e0;
     text-transform: uppercase;
+    letter-spacing: 0.1rem;
     border-right: 1px solid #dbb8e0;
     padding: 0 10px;
+}
+
+.navigation__link:hover {
+    opacity: 0.7;
 }
 
 .navigation__link:last-child {
@@ -93,6 +107,13 @@ img {
     background: linear-gradient(to right, #4c0143 , #41004d);
     height: 100vh;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: -1;
 }
 
 .portfolio-work__project {
@@ -117,7 +138,7 @@ img {
     padding: 0 3rem;
 }
 
-.portfolio__link-container {
+.portfolio__link-button {
     display: inline-flex;
     background: #4c0143;
     padding: 20px 70px;
@@ -125,8 +146,12 @@ img {
     color: white;
     margin: 40px 0px;
     font-family: 'Work Sans', sans-serif;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    transition: all .2s ease-in-out;
 }
 
-.portfolio__link-container:hover {
+.portfolio__link-button:hover {
     background: #41004d;
+    transform: scale(1.03);
 }

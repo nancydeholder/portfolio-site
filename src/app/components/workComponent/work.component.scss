@@ -20,7 +20,7 @@
     padding: 0 3rem;
 }
 
-.portfolio__link-container {
+.portfolio__link-button {
     display: inline-flex;
     background: #4c0143;
     padding: 20px 70px;
@@ -28,4 +28,12 @@
     color: white;
     margin: 40px 0px;
     font-family: 'Work Sans', sans-serif;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        background: #41004d;
+        transform: scale(1.03);
+    }
 }
