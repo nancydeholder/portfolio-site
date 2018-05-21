@@ -35,22 +35,29 @@ h3 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
     font-size: 1.2rem;
-    color: #000;
+    color: #4d4d4d;
     margin: 0;
-    line-height: 1.6rem;
+    line-height: 2rem;
 }
 
 .portfolio-container {
     margin: 5% 7%;
+}
+.portfolio-white-bkgd {
+    background: white;
 }
 
 .portfolio-resume-headline__container{
     padding: 0 2%;
 }
 
-.portfolio-resume-container {
+.portfolio-resume__container {
     display: flex;
     justify-content: space-between;
+}
+
+img {
+    max-width: 100%;
 }
 
 .portfolio-column-1-2 {
@@ -86,4 +93,40 @@ h3 {
     background: linear-gradient(to right, #4c0143 , #41004d);
     height: 100vh;
     text-align: center;
+}
+
+.portfolio-work__project {
+    display: flex;
+    padding-top: 8rem;
+}
+
+.portfolio-work__headline {
+    color: #4d4d4d;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+}
+
+.portfolio-work__image-container {
+    overflow: hidden;
+    max-height: 450px;
+    margin: 0 3rem;
+}
+
+.portfolio-work__content-block {
+    padding: 0 3rem;
+}
+
+.portfolio__link-container {
+    display: inline-flex;
+    background: #4c0143;
+    padding: 20px 70px;
+    text-decoration: none;
+    color: white;
+    margin: 40px 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.portfolio__link-container:hover {
+    background: #41004d;
 }

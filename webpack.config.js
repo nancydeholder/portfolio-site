@@ -13,13 +13,16 @@ module.exports = {
     },
     output: {
         path: DIST,
+        publicPath: '',
         filename: '[name].js',
     },
     module: {
         rules: [
             { test: /\.ts$/, loader: 'awesome-typescript-loader?silent=true!angular2-template-loader' },
             { test: /\.(css|html)/, include: SRC, loader: 'raw-loader' },
-            { test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/, loader: 'file-loader?name=fonts/[name].[ext]' },
+            { test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/,  use: [
+                'file-loader'
+              ] },   
             { 
               test: /\.(sass|scss)$/,
             }
@@ -31,7 +34,7 @@ module.exports = {
     devServer: {
         publicPath: "/",
         contentBase: DIST,
-        port: "8080"
+        port: "8080",
     },
     plugins: [
         new HtmlWebpackPlugin({template: path.join(SRC, "index.html")}),
