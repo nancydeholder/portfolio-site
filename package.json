@@ -5,9 +5,9 @@
   "repository": ".git/",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --inline",
-    "build:dev": "webpack -d --progress --hide-modules",
-    "build:prod": "webpack -p --progress --hide-modules"
+    "start": "webpack --config config/webpack.prod.config && node ./server/server.js",
+    "build-prod": "webpack --config config/webpack.prod.config",
+    "build-dev": "nodemon ./server/server.js"
   },
   "keywords": [],
   "author": "Nancy Holder",
