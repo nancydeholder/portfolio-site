@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: "app",
+    selector: "work-component",
     templateUrl: "./work.component.html",
 }) 
 export class WorkComponent {}

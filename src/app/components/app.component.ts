@@ -4,7 +4,4 @@ import { Component, Input } from '@angular/core';
     selector: "app",
     templateUrl: "./app.component.html",
 })
-export class AppComponent {
-    readonly name = "NANCY HOLDER";
-    readonly headline = "designer && developer";
-}
+export class AppComponent {}

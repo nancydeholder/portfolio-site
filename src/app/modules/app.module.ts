@@ -10,6 +10,7 @@ import { AppComponent } from '../components/app.component';
 import { ResumeComponent } from '../components/resumeComponent/resume.component';
 import { WorkComponent } from '../components/workComponent/work.component';
 import { HomeComponent } from '../components/homeComponent/home.component';
+import { NavigationComponent } from '../components/navigationComponent/navigation.component';
 
 // Routes
 const appRoutes : Routes = [
@@ -20,7 +21,7 @@ const appRoutes : Routes = [
 ];
 
 @NgModule({
-  declarations: [ AppComponent, ResumeComponent, WorkComponent, HomeComponent ],
+  declarations: [ AppComponent, ResumeComponent, WorkComponent, HomeComponent, NavigationComponent ],
   imports: [ BrowserModule, FormsModule, NgPipesModule, RouterModule.forRoot(appRoutes, {useHash: true}) ],
   bootstrap: [ AppComponent ]
 })
