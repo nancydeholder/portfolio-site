@@ -5,13 +5,15 @@
   "repository": ".git/",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --config config/webpack.prod.config && node ./server/server.js",
-    "build-prod": "webpack --config config/webpack.prod.config",
-    "build-dev": "nodemon ./server/server.js"
+    "build": "NODE_ENV=production webpack --config ./webpack.prod.config.js --progress --colors",
+    "start": "node ./app.js"
   },
   "keywords": [],
   "author": "Nancy Holder",
   "license": "IST",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
   "devDependencies": {
     "@angular/common": "^4.0.2",
     "@angular/compiler": "^4.0.2",
@@ -37,6 +39,8 @@
     "web-dev-server": "^1.0.5",
     "webpack": "^2.7.0",
     "webpack-dev-server": "^2.4.2",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-hot-middleware": "^2.10.0",
     "zone.js": "^0.8.5"
   }
 }

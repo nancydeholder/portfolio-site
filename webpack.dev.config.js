@@ -37,7 +37,7 @@ module.exports = {
         port: "8080",
     },
     plugins: [
-        new HtmlWebpackPlugin({template: path.join(SRC, "index.html")}),
+        new HtmlWebpackPlugin({template: path.join(SRC, "../dist/index.html")}),
         new webpack.ContextReplacementPlugin(/angular(\\|\/)core(\\|\/)@angular/, SRC),
         // new ExtractTextPlugin({ // define where to save the file
         //   filename: 'dist/[name].bundle.css',
