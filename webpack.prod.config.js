@@ -8,8 +8,8 @@ const APP  = path.join(SRC, "app");
 
 module.exports = {
     entry: {
-        "js/vendor.bundle": "./src/app/vendor.ts",
-        "js/main.bundle": "./src/app/main.ts",
+        "dist/js/vendor.bundle": "./src/app/vendor.ts",
+        "dist/js/main.bundle": "./src/app/main.ts",
     },
     output: {
         path: DIST,
