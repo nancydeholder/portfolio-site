@@ -7,6 +7,8 @@
 }
 
 .portfolio-resume__container {
-    display: flex;
-    justify-content: space-between;
+    @media screen and (min-width: 1025px) {
+        display: flex;
+        justify-content: space-between;
+    }
 }

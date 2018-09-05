@@ -78,7 +78,9 @@ b {
 .portfolio-container {
     margin: 5% 7%;
 }
+
 .portfolio-white-bkgd {
+    display: inline-grid;
     background: white;
 }
 
@@ -86,18 +88,26 @@ b {
     padding: 0 2%;
 }
 
-.portfolio-resume__container {
-    display: flex;
-    justify-content: space-between;
+@media screen and (min-width: 1025px) {
+    .portfolio-resume__container {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 img {
     max-width: 100%;
 }
 
-.portfolio-column-1-2 {
-    width: 50%;
-    padding: 0 2%;
+.portfolio-white-bkgd .portfolio-column-1-2:first-child {
+    order: 2;
+}
+
+@media screen and (min-width: 1025px) {
+    .portfolio-column-1-2 {
+        width: 50%;
+        padding: 0 2%;
+    }
 }
 
 .portfolio-navigation {
@@ -159,9 +169,11 @@ img {
     z-index: -1;
 }
 
-.portfolio-work__project {
-    display: flex;
-    padding-top: 8rem;
+@media screen and (min-width: 1025px) {
+    .portfolio-work__project {
+        display: flex;
+        padding-top: 8rem;
+    }
 }
 
 .portfolio-work__headline {
@@ -178,7 +190,13 @@ img {
 }
 
 .portfolio-work__content-block {
-    padding: 0 3rem;
+    padding: 2rem 3rem;
+}
+
+@media screen and (min-width: 1025px) {
+    .portfolio-work__content-block {
+        padding: 0 3rem;
+    }
 }
 
 .portfolio__link-button {
