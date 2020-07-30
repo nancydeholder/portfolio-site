@@ -105,11 +105,11 @@ const Resume = () => (
                     <p class="portfolio-base-font portfolio-resume--new-line">Research Experience Program Certificate</p>
 
                     <Title>SKILLS</Title>
-                    <p class="portfolio-base-font">Adobe Creative Suite, Sketch, CSS, SCSS,
-                    HTML, PHP/Wordpress, Javascript, Angular, ES6,
-                    Typescript, Jenkins, Karma, Jasmine, Webpack,
-                    Node, AEM, Adobe Analytics, Adobe Target,
-            MySQL</p>
+                    <p class="portfolio-base-font">React, Javascript, Typescript, Angular, ES6, SCSS,
+                    CSS, HTML, JQuery, NodeJs, Karma, Jasmine, Jest,
+                    Docker, Webpack, Git, Gulp, Grunt, Python, AEM,
+                    Adobe Analytics, Adobe Target, Adobe Creative
+                    Suite, Sketch, Abstract</p>
                     <br />
                     <p class="portfolio-base-font">Fluent in Spanish</p>
 
