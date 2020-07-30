@@ -12,7 +12,7 @@ class Header extends Component {
     if (this.props.background === 'purple') {
       styles = {
         footer: {
-          background: 'linear-gradient(to right, #4c0143 , #41004d);',
+          background: 'linear-gradient(to right, #4c0143, #41004d)',
         },
       }
       color = false;

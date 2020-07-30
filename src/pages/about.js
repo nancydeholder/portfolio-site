@@ -7,7 +7,7 @@ import Header from "../components/header/header";
 import Footer from "../components/footer/footer";
 
 
-const IndexPage = () => (
+const AboutPage = () => (
   <div className="centered-content">
     <Header siteTitle="Nancy Holder" />
     <SEO title="Home" />
@@ -16,4 +16,4 @@ const IndexPage = () => (
   </div>
 )
 
-export default IndexPage
+export default AboutPage;
